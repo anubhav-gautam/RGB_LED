@@ -20,4 +20,10 @@ void loop() {
     digitalWrite(green,LOW);
     digitalWrite(blue,LOW);
     delay(1000);
+
+
+    digitalWrite(red,LOW);
+    digitalWrite(green,HIGH);
+    digitalWrite(blue,HIGH);
+    delay(1000);
 }
