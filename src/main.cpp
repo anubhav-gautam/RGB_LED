@@ -4,7 +4,10 @@ int green =10;
 int blue=11;
 
 void setup() {
-// write your initialization code here
+    pinMode(red,OUTPUT);
+    pinMode(green,OUTPUT);
+    pinMode(blue,OUTPUT);
+
 }
 
 void loop() {
