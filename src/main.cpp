@@ -11,5 +11,8 @@ void setup() {
 }
 
 void loop() {
-// write your code here
+    digitalWrite(red,HIGH);
+    digitalWrite(green,HIGH);
+    digitalWrite(blue,HIGH);
+    delay(1000);
 }
